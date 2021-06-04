@@ -1,14 +1,9 @@
 {
-    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$anchor": "asset",
     "description": "An Adapt assets.json file",
     "type": "object",
     "properties": {
-        "_isDeleted": {
-            "description": "Is the asset deleted?",
-            "type": "boolean",
-            "default": false
-        },
         "metadata": {
             "description": "The metadata of asset",
             "type": "object",
